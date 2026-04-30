@@ -269,13 +269,6 @@ ul {
 .logo {
     display: flex;
     align-items: center;
-    gap: 12px;
-    font-size: 24px;
-    font-weight: 700;
-    background: var(--gradient-1);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
     transition: var(--transition);
 }
 
@@ -284,8 +277,8 @@ ul {
 }
 
 .logo img {
-    width: 50px;
-    height: 50px;
+    width: 130px;
+    height: 60px;
     object-fit: contain;
     filter: drop-shadow(0 4px 8px rgba(51, 198, 198, 0.3));
     transition: var(--transition);
@@ -2269,13 +2262,9 @@ ul {
 }
 
 @media (max-width: 480px) {
-    .logo {
-        font-size: 20px;
-    }
-    
     .logo img {
-        width: 42px;
-        height: 42px;
+        width: 50px;
+        height: 50px;
     }
     
     .hero-title {
