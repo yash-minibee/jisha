@@ -356,7 +356,7 @@ ul {
 .mobile-toggle span {
     width: 25px;
     height: 3px;
-    background-color: var(--dark-gray);
+    background: var(--gradient-2);
     transition: var(--transition);
 }
 
@@ -2516,12 +2516,14 @@ body::after {
 @media (min-height: 900px) {
     .hero-premium-visual {
         height: 580px;
+        display: none;
     }
 }
 
 @media (max-height: 700px) {
     .hero-premium-visual {
         height: 400px;
+
     }
 }
 
@@ -2720,6 +2722,7 @@ body::after {
         height: 360px;
         margin: 0 auto;
         max-width: 480px;
+        display: none;
     }
     
     .circle-1 { width: 340px; height: 340px; }
@@ -2787,6 +2790,7 @@ body::after {
     .hero-premium-visual {
         height: 300px;
         margin: 0 auto;
+        display: none;
     }
     
     .circle-1 { width: 280px; height: 280px; }
@@ -2869,6 +2873,7 @@ body::after {
     .hero-premium-visual {
         height: 260px;
         margin: 0 auto;
+        display: none;
     }
     
     .circle-1 { width: 230px; height: 230px; }
